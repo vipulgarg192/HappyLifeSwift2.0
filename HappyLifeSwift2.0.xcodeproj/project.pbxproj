@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B2FBCA522B9C15900F76416 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FBCA422B9C15900F76416 /* Address.swift */; };
+		9B2FBCA722B9C1C900F76416 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FBCA622B9C1C900F76416 /* Enums.swift */; };
+		9B2FBCA922B9C1F100F76416 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FBCA822B9C1F100F76416 /* Products.swift */; };
+		9B2FBCAB22B9C21200F76416 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2FBCAA22B9C21200F76416 /* Utility.swift */; };
 		9BB3ADEA22B9BF840066651D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADE922B9BF840066651D /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +27,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9B2FBCA422B9C15900F76416 /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9B2FBCA622B9C1C900F76416 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		9B2FBCA822B9C1F100F76416 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		9B2FBCAA22B9C21200F76416 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		9BB3ADE622B9BF840066651D /* HappyLifeSwift2.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HappyLifeSwift2.0; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB3ADE922B9BF840066651D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +46,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B2FBCA322B9C12700F76416 /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				9B2FBCA422B9C15900F76416 /* Address.swift */,
+				9B2FBCA622B9C1C900F76416 /* Enums.swift */,
+				9B2FBCA822B9C1F100F76416 /* Products.swift */,
+				9B2FBCAA22B9C21200F76416 /* Utility.swift */,
+			);
+			path = utility;
+			sourceTree = "<group>";
+		};
 		9BB3ADDD22B9BF840066651D = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +76,7 @@
 		9BB3ADE822B9BF840066651D /* HappyLifeSwift2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				9B2FBCA322B9C12700F76416 /* utility */,
 				9BB3ADE922B9BF840066651D /* main.swift */,
 			);
 			path = HappyLifeSwift2.0;
@@ -119,6 +139,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B2FBCAB22B9C21200F76416 /* Utility.swift in Sources */,
+				9B2FBCA522B9C15900F76416 /* Address.swift in Sources */,
+				9B2FBCA922B9C1F100F76416 /* Products.swift in Sources */,
+				9B2FBCA722B9C1C900F76416 /* Enums.swift in Sources */,
 				9BB3ADEA22B9BF840066651D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
