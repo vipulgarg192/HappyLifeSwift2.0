@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9BB3ADEA22B9BF840066651D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADE922B9BF840066651D /* main.swift */; };
+		9BB3ADF622B9C0F90066651D /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADF522B9C0F90066651D /* Users.swift */; };
+		9BB3ADF822B9C1280066651D /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADF722B9C1280066651D /* Seller.swift */; };
+		9BB3ADFA22B9C13F0066651D /* Buyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADF922B9C13F0066651D /* Buyer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		9BB3ADE622B9BF840066651D /* HappyLifeSwift2.0 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HappyLifeSwift2.0; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB3ADE922B9BF840066651D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		9BB3ADF522B9C0F90066651D /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9BB3ADF722B9C1280066651D /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
+		9BB3ADF922B9C13F0066651D /* Buyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,20 @@
 		9BB3ADE822B9BF840066651D /* HappyLifeSwift2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				9BB3ADF422B9C0E40066651D /* users */,
 				9BB3ADE922B9BF840066651D /* main.swift */,
 			);
 			path = HappyLifeSwift2.0;
+			sourceTree = "<group>";
+		};
+		9BB3ADF422B9C0E40066651D /* users */ = {
+			isa = PBXGroup;
+			children = (
+				9BB3ADF522B9C0F90066651D /* Users.swift */,
+				9BB3ADF722B9C1280066651D /* Seller.swift */,
+				9BB3ADF922B9C13F0066651D /* Buyer.swift */,
+			);
+			path = users;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB3ADF822B9C1280066651D /* Seller.swift in Sources */,
+				9BB3ADFA22B9C13F0066651D /* Buyer.swift in Sources */,
+				9BB3ADF622B9C0F90066651D /* Users.swift in Sources */,
 				9BB3ADEA22B9BF840066651D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
