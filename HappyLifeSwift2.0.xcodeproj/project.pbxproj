@@ -11,6 +11,10 @@
 		9BB3ADF622B9C0F90066651D /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADF522B9C0F90066651D /* Users.swift */; };
 		9BB3ADF822B9C1280066651D /* Seller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADF722B9C1280066651D /* Seller.swift */; };
 		9BB3ADFA22B9C13F0066651D /* Buyer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADF922B9C13F0066651D /* Buyer.swift */; };
+		9BB3ADFE22B9C5CC0066651D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADFD22B9C5CC0066651D /* Address.swift */; };
+		9BB3AE0022B9C5D90066651D /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3ADFF22B9C5D90066651D /* Enums.swift */; };
+		9BB3AE0222B9C5E60066651D /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3AE0122B9C5E60066651D /* Products.swift */; };
+		9BB3AE0422B9C5EF0066651D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB3AE0322B9C5EF0066651D /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,10 @@
 		9BB3ADF522B9C0F90066651D /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 		9BB3ADF722B9C1280066651D /* Seller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seller.swift; sourceTree = "<group>"; };
 		9BB3ADF922B9C13F0066651D /* Buyer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buyer.swift; sourceTree = "<group>"; };
+		9BB3ADFD22B9C5CC0066651D /* Address.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
+		9BB3ADFF22B9C5D90066651D /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		9BB3AE0122B9C5E60066651D /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		9BB3AE0322B9C5EF0066651D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 		9BB3ADE822B9BF840066651D /* HappyLifeSwift2.0 */ = {
 			isa = PBXGroup;
 			children = (
+				9BB3ADFC22B9C5900066651D /* utility */,
 				9BB3ADF422B9C0E40066651D /* users */,
 				9BB3ADE922B9BF840066651D /* main.swift */,
 			);
@@ -77,6 +86,17 @@
 				9BB3ADF922B9C13F0066651D /* Buyer.swift */,
 			);
 			path = users;
+			sourceTree = "<group>";
+		};
+		9BB3ADFC22B9C5900066651D /* utility */ = {
+			isa = PBXGroup;
+			children = (
+				9BB3ADFD22B9C5CC0066651D /* Address.swift */,
+				9BB3ADFF22B9C5D90066651D /* Enums.swift */,
+				9BB3AE0122B9C5E60066651D /* Products.swift */,
+				9BB3AE0322B9C5EF0066651D /* Utility.swift */,
+			);
+			path = utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +159,11 @@
 				9BB3ADF822B9C1280066651D /* Seller.swift in Sources */,
 				9BB3ADFA22B9C13F0066651D /* Buyer.swift in Sources */,
 				9BB3ADF622B9C0F90066651D /* Users.swift in Sources */,
+				9BB3AE0222B9C5E60066651D /* Products.swift in Sources */,
+				9BB3AE0422B9C5EF0066651D /* Utility.swift in Sources */,
 				9BB3ADEA22B9BF840066651D /* main.swift in Sources */,
+				9BB3AE0022B9C5D90066651D /* Enums.swift in Sources */,
+				9BB3ADFE22B9C5CC0066651D /* Address.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
